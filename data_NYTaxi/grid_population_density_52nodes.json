@@ -1,0 +1,522 @@
+[
+  {
+    "name": "East Flushing (Queens)",
+    "station_lng": -73.8077109,
+    "station_lat": 40.7537697,
+    "grid_lng": -73.8077109,
+    "grid_lat": 40.7537697,
+    "grid_population_density": 8987.4599609375,
+    "original_index": 1,
+    "new_index": 0
+  },
+  {
+    "name": "Far Rockaway (Queens)",
+    "station_lng": -73.755904,
+    "station_lat": 40.6025714,
+    "grid_lng": -73.755904,
+    "grid_lat": 40.6025714,
+    "grid_population_density": 13023.1416015625,
+    "original_index": 2,
+    "new_index": 1
+  },
+  {
+    "name": "Glendale (Queens)",
+    "station_lng": -73.876268,
+    "station_lat": 40.7026639,
+    "grid_lng": -73.876268,
+    "grid_lat": 40.7026639,
+    "grid_population_density": 8774.91796875,
+    "original_index": 3,
+    "new_index": 2
+  },
+  {
+    "name": "Sheepshead Bay (Brooklyn)",
+    "station_lng": -73.9391962,
+    "station_lat": 40.5937708,
+    "grid_lng": -73.9391962,
+    "grid_lat": 40.5937708,
+    "grid_population_density": 16645.64453125,
+    "original_index": 5,
+    "new_index": 3
+  },
+  {
+    "name": "Clinton Hill (Brooklyn)",
+    "station_lng": -73.9617039,
+    "station_lat": 40.6887659,
+    "grid_lng": -73.9617039,
+    "grid_lat": 40.6887659,
+    "grid_population_density": 20540.587890625,
+    "original_index": 6,
+    "new_index": 4
+  },
+  {
+    "name": "Rockaway Park (Queens)",
+    "station_lng": -73.8410405,
+    "station_lat": 40.5774219,
+    "grid_lng": -73.8410405,
+    "grid_lat": 40.5774219,
+    "grid_population_density": 7528.39599609375,
+    "original_index": 7,
+    "new_index": 5
+  },
+  {
+    "name": "Lenox Hill West (Manhattan)",
+    "station_lng": -73.9596348,
+    "station_lat": 40.7669515,
+    "grid_lng": -73.9596348,
+    "grid_lat": 40.7669515,
+    "grid_population_density": 30554.26953125,
+    "original_index": 8,
+    "new_index": 6
+  },
+  {
+    "name": "Sunset Park West (Brooklyn)",
+    "station_lng": -74.0099612,
+    "station_lat": 40.653593,
+    "grid_lng": -74.0099612,
+    "grid_lat": 40.653593,
+    "grid_population_density": 2925.36083984375,
+    "original_index": 9,
+    "new_index": 7
+  },
+  {
+    "name": "Greenwich Village North (Manhattan)",
+    "station_lng": -73.9949676,
+    "station_lat": 40.7322252,
+    "grid_lng": -73.9949676,
+    "grid_lat": 40.7322252,
+    "grid_population_density": 31603.794921875,
+    "original_index": 10,
+    "new_index": 8
+  },
+  {
+    "name": "Middle Village (Queens)",
+    "station_lng": -73.8821919,
+    "station_lat": 40.7185671,
+    "grid_lng": -73.8821919,
+    "grid_lat": 40.7185671,
+    "grid_population_density": 7153.69482421875,
+    "original_index": 11,
+    "new_index": 9
+  },
+  {
+    "name": "Carroll Gardens (Brooklyn)",
+    "station_lng": -73.9952585,
+    "station_lat": 40.678542,
+    "grid_lng": -73.9952585,
+    "grid_lat": 40.678542,
+    "grid_population_density": 15732.4794921875,
+    "original_index": 12,
+    "new_index": 10
+  },
+  {
+    "name": "UN/Turtle Bay South (Manhattan)",
+    "station_lng": -73.9699792,
+    "station_lat": 40.7491235,
+    "grid_lng": -73.9699792,
+    "grid_lat": 40.7491235,
+    "grid_population_density": 29732.376953125,
+    "original_index": 13,
+    "new_index": 11
+  },
+  {
+    "name": "University Heights/Morris Heights (Bronx)",
+    "station_lng": -73.9163808,
+    "station_lat": 40.8537099,
+    "grid_lng": -73.9163808,
+    "grid_lat": 40.8537099,
+    "grid_population_density": 28779.69140625,
+    "original_index": 14,
+    "new_index": 12
+  },
+  {
+    "name": "Schuylerville/Edgewater Park (Bronx)",
+    "station_lng": -73.8161715,
+    "station_lat": 40.8246802,
+    "grid_lng": -73.8161715,
+    "grid_lat": 40.8246802,
+    "grid_population_density": 5240.72998046875,
+    "original_index": 15,
+    "new_index": 13
+  },
+  {
+    "name": "Washington Heights North (Manhattan)",
+    "station_lng": -73.9357938,
+    "station_lat": 40.8586389,
+    "grid_lng": -73.9357938,
+    "grid_lat": 40.8586389,
+    "grid_population_density": 107.46574401855469,
+    "original_index": 16,
+    "new_index": 14
+  },
+  {
+    "name": "Greenpoint (Brooklyn)",
+    "station_lng": -73.9481792,
+    "station_lat": 40.7287903,
+    "grid_lng": -73.9481792,
+    "grid_lat": 40.7287903,
+    "grid_population_density": 10379.189453125,
+    "original_index": 17,
+    "new_index": 15
+  },
+  {
+    "name": "Lincoln Square West (Manhattan)",
+    "station_lng": -73.9884577,
+    "station_lat": 40.7757855,
+    "grid_lng": -73.9884577,
+    "grid_lat": 40.7757855,
+    "grid_population_density": 23356.373046875,
+    "original_index": 18,
+    "new_index": 16
+  },
+  {
+    "name": "Steinway (Queens)",
+    "station_lng": -73.9058321,
+    "station_lat": 40.7784068,
+    "grid_lng": -73.9058321,
+    "grid_lat": 40.7784068,
+    "grid_population_density": 10731.1083984375,
+    "original_index": 19,
+    "new_index": 17
+  },
+  {
+    "name": "Pelham Parkway (Bronx)",
+    "station_lng": -73.852456,
+    "station_lat": 40.8534748,
+    "grid_lng": -73.852456,
+    "grid_lat": 40.8534748,
+    "grid_population_density": 11656.25390625,
+    "original_index": 21,
+    "new_index": 18
+  },
+  {
+    "name": "Bloomfield/Emerson Hill (Staten Island)",
+    "station_lng": -74.1604883,
+    "station_lat": 40.6075136,
+    "grid_lng": -74.1604883,
+    "grid_lat": 40.6075136,
+    "grid_population_density": 4253.97802734375,
+    "original_index": 22,
+    "new_index": 19
+  },
+  {
+    "name": "Laurelton (Queens)",
+    "station_lng": -73.7437555,
+    "station_lat": 40.677852,
+    "grid_lng": -73.7437555,
+    "grid_lat": 40.677852,
+    "grid_population_density": 7166.82958984375,
+    "original_index": 23,
+    "new_index": 20
+  },
+  {
+    "name": "Manhattan Beach (Brooklyn)",
+    "station_lng": -73.9451807,
+    "station_lat": 40.5804646,
+    "grid_lng": -73.9451807,
+    "grid_lat": 40.5804646,
+    "grid_population_density": 3284.434814453125,
+    "original_index": 24,
+    "new_index": 21
+  },
+  {
+    "name": "Bath Beach (Brooklyn)",
+    "station_lng": -74.0075104,
+    "station_lat": 40.6040145,
+    "grid_lng": -74.0075104,
+    "grid_lat": 40.6040145,
+    "grid_population_density": 16499.64453125,
+    "original_index": 25,
+    "new_index": 22
+  },
+  {
+    "name": "Woodside (Queens)",
+    "station_lng": -73.9068412,
+    "station_lat": 40.7466045,
+    "grid_lng": -73.9068412,
+    "grid_lat": 40.7466045,
+    "grid_population_density": 20770.677734375,
+    "original_index": 26,
+    "new_index": 23
+  },
+  {
+    "name": "Central Harlem (Manhattan)",
+    "station_lng": -73.9507095,
+    "station_lat": 40.8041764,
+    "grid_lng": -73.9507095,
+    "grid_lat": 40.8041764,
+    "grid_population_density": 25440.287109375,
+    "original_index": 27,
+    "new_index": 24
+  },
+  {
+    "name": "TriBeCa/Civic Center (Manhattan)",
+    "station_lng": -74.0072641,
+    "station_lat": 40.7185765,
+    "grid_lng": -74.0072641,
+    "grid_lat": 40.7185765,
+    "grid_population_density": 14907.5908203125,
+    "original_index": 28,
+    "new_index": 25
+  },
+  {
+    "name": "Upper West Side North (Manhattan)",
+    "station_lng": -73.9730312,
+    "station_lat": 40.7917833,
+    "grid_lng": -73.9730312,
+    "grid_lat": 40.7917833,
+    "grid_population_density": 52919.57421875,
+    "original_index": 29,
+    "new_index": 26
+  },
+  {
+    "name": "Battery Park (Manhattan)",
+    "station_lng": -74.0157259,
+    "station_lat": 40.702497,
+    "grid_lng": -74.0157259,
+    "grid_lat": 40.702497,
+    "grid_population_density": 10548.0078125,
+    "original_index": 30,
+    "new_index": 27
+  },
+  {
+    "name": "Howard Beach (Queens)",
+    "station_lng": -73.8447657,
+    "station_lat": 40.6595638,
+    "grid_lng": -73.8447657,
+    "grid_lat": 40.6595638,
+    "grid_population_density": 4570.08056640625,
+    "original_index": 31,
+    "new_index": 28
+  },
+  {
+    "name": "Maspeth (Queens)",
+    "station_lng": -73.9055952,
+    "station_lat": 40.7240289,
+    "grid_lng": -73.9055952,
+    "grid_lat": 40.7240289,
+    "grid_population_density": 10133.1767578125,
+    "original_index": 32,
+    "new_index": 29
+  },
+  {
+    "name": "Midwood (Brooklyn)",
+    "station_lng": -73.957944,
+    "station_lat": 40.6200733,
+    "grid_lng": -73.957944,
+    "grid_lat": 40.6200733,
+    "grid_population_density": 15979.6689453125,
+    "original_index": 33,
+    "new_index": 30
+  },
+  {
+    "name": "Longwood (Bronx)",
+    "station_lng": -73.8986477,
+    "station_lat": 40.8190641,
+    "grid_lng": -73.8986477,
+    "grid_lat": 40.8190641,
+    "grid_population_density": 25084.51953125,
+    "original_index": 34,
+    "new_index": 31
+  },
+  {
+    "name": "Gowanus (Brooklyn)",
+    "station_lng": -73.9901885,
+    "station_lat": 40.673258,
+    "grid_lng": -73.9901885,
+    "grid_lat": 40.673258,
+    "grid_population_density": 14820.2939453125,
+    "original_index": 35,
+    "new_index": 32
+  },
+  {
+    "name": "Midtown Center (Manhattan)",
+    "station_lng": -73.9776804,
+    "station_lat": 40.7580303,
+    "grid_lng": -73.9776804,
+    "grid_lat": 40.7580303,
+    "grid_population_density": 14151.919921875,
+    "original_index": 36,
+    "new_index": 33
+  },
+  {
+    "name": "Midtown East (Manhattan)",
+    "station_lng": -73.972471,
+    "station_lat": 40.7568401,
+    "grid_lng": -73.972471,
+    "grid_lat": 40.7568401,
+    "grid_population_density": 20580.005859375,
+    "original_index": 37,
+    "new_index": 34
+  },
+  {
+    "name": "Yorkville East (Manhattan)",
+    "station_lng": -73.9451423,
+    "station_lat": 40.7766809,
+    "grid_lng": -73.9451423,
+    "grid_lat": 40.7766809,
+    "grid_population_density": 56705.04296875,
+    "original_index": 38,
+    "new_index": 35
+  },
+  {
+    "name": "Financial District North (Manhattan)",
+    "station_lng": -74.007239,
+    "station_lat": 40.7066588,
+    "grid_lng": -74.007239,
+    "grid_lat": 40.7066588,
+    "grid_population_density": 14161.2763671875,
+    "original_index": 39,
+    "new_index": 36
+  },
+  {
+    "name": "Dyker Heights (Brooklyn)",
+    "station_lng": -74.0123931,
+    "station_lat": 40.6184155,
+    "grid_lng": -74.0123931,
+    "grid_lat": 40.6184155,
+    "grid_population_density": 10401.224609375,
+    "original_index": 40,
+    "new_index": 37
+  },
+  {
+    "name": "Lincoln Square East (Manhattan)",
+    "station_lng": -73.9815305,
+    "station_lat": 40.7736587,
+    "grid_lng": -73.9815305,
+    "grid_lat": 40.7736587,
+    "grid_population_density": 20611.833984375,
+    "original_index": 41,
+    "new_index": 38
+  },
+  {
+    "name": "Midtown North (Manhattan)",
+    "station_lng": -73.977041,
+    "station_lat": 40.7643868,
+    "grid_lng": -73.977041,
+    "grid_lat": 40.7643868,
+    "grid_population_density": 14151.919921875,
+    "original_index": 42,
+    "new_index": 39
+  },
+  {
+    "name": "West Farms/Bronx River (Bronx)",
+    "station_lng": -73.8733,
+    "station_lat": 40.8346805,
+    "grid_lng": -73.8733,
+    "grid_lat": 40.8346805,
+    "grid_population_density": 15361.2392578125,
+    "original_index": 43,
+    "new_index": 40
+  },
+  {
+    "name": "Claremont/Bathgate (Bronx)",
+    "station_lng": -73.900386,
+    "station_lat": 40.8453188,
+    "grid_lng": -73.900386,
+    "grid_lat": 40.8453188,
+    "grid_population_density": 11355.322265625,
+    "original_index": 45,
+    "new_index": 41
+  },
+  {
+    "name": "East Harlem North (Manhattan)",
+    "station_lng": -73.9374048,
+    "station_lat": 40.8056133,
+    "grid_lng": -73.9374048,
+    "grid_lat": 40.8056133,
+    "grid_population_density": 23134.572265625,
+    "original_index": 46,
+    "new_index": 42
+  },
+  {
+    "name": "Times Sq/Theatre District (Manhattan)",
+    "station_lng": -73.9841965,
+    "station_lat": 40.7598169,
+    "grid_lng": -73.9841965,
+    "grid_lat": 40.7598169,
+    "grid_population_density": 14151.919921875,
+    "original_index": 47,
+    "new_index": 43
+  },
+  {
+    "name": "Manhattanville (Manhattan)",
+    "station_lng": -73.9540564,
+    "station_lat": 40.8175187,
+    "grid_lng": -73.9540564,
+    "grid_lat": 40.8175187,
+    "grid_population_density": 37460.046875,
+    "original_index": 48,
+    "new_index": 44
+  },
+  {
+    "name": "Hunts Point (Bronx)",
+    "station_lng": -73.8855838,
+    "station_lat": 40.813922,
+    "grid_lng": -73.8855838,
+    "grid_lat": 40.813922,
+    "grid_population_density": 7477.83203125,
+    "original_index": 49,
+    "new_index": 45
+  },
+  {
+    "name": "Queensbridge/Ravenswood (Queens)",
+    "station_lng": -73.9423924,
+    "station_lat": 40.7617935,
+    "grid_lng": -73.9423924,
+    "grid_lat": 40.7617935,
+    "grid_population_density": 9783.4736328125,
+    "original_index": 50,
+    "new_index": 46
+  },
+  {
+    "name": "Upper East Side South (Manhattan)",
+    "station_lng": -73.9656356,
+    "station_lat": 40.768614,
+    "grid_lng": -73.9656356,
+    "grid_lat": 40.768614,
+    "grid_population_density": 30554.26953125,
+    "original_index": 52,
+    "new_index": 47
+  },
+  {
+    "name": "Upper East Side North (Manhattan)",
+    "station_lng": -73.9570101,
+    "station_lat": 40.7804396,
+    "grid_lng": -73.9570101,
+    "grid_lat": 40.7804396,
+    "grid_population_density": 56741.2578125,
+    "original_index": 53,
+    "new_index": 48
+  },
+  {
+    "name": "Manhattan Valley (Manhattan)",
+    "station_lng": -73.9682222,
+    "station_lat": 40.7978591,
+    "grid_lng": -73.9682222,
+    "grid_lat": 40.7978591,
+    "grid_population_density": 52919.57421875,
+    "original_index": 54,
+    "new_index": 49
+  },
+  {
+    "name": "Lenox Hill East (Manhattan)",
+    "station_lng": -73.954728,
+    "station_lat": 40.7653048,
+    "grid_lng": -73.954728,
+    "grid_lat": 40.7653048,
+    "grid_population_density": 21461.625,
+    "original_index": 55,
+    "new_index": 50
+  },
+  {
+    "name": "Allerton/Pelham Gardens (Bronx)",
+    "station_lng": -73.8449466,
+    "station_lat": 40.8657454,
+    "grid_lng": -73.8449466,
+    "grid_lat": 40.8657454,
+    "grid_population_density": 8500.3662109375,
+    "original_index": 56,
+    "new_index": 51
+  }
+]
