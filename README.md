@@ -1,52 +1,64 @@
-# OD生成
+# CADF-OD: Cross-Modal Alignment with Ensemble Adversarial Learning for OD Flow Generation
 
-## 目录结构
+This repository contains the official implementation of **CADF-OD**, a novel framework for Origin-Destination (OD) flow generation.
 
-```
+---
+
+## Abstract
+
+Origin-Destination flow prediction has become increasingly vital for urban transportation planning and traffic management. **CADF-OD** leverages a cross-modal alignment mechanism bridging semantic representations from pre-trained language models with temporal sequences, and a discriminator forest architecture to mitigate mode collapse and capture nuanced inter-location relationships.
+
+---
+
+## Project Structure
+
+```plaintext
 .
-├── CADF_OD.py                          # 主实验代码
-├── precompute_token_features_m18_NY.py # 语义特征计算脚本（运行主实验前需先执行）
-├── data_NYTaxi/                        # 纽约出租车数据集
-│   ├── od_matrix_daily.npy            # OD矩阵数据
-│   ├── io_flow_daily.npy              # IO流量数据
-│   ├── graph.npy                      # 距离矩阵
-│   └── grid_population_density_52nodes.json  # 区域人口密度数据
-└── baselines/                          # 基线模型训练代码
-    ├── ADAPTIVE/
-    ├── DT_VAE/
-    ├── Flow_VAE/
+├── CADF_OD.py                         # Main experimental script
+├── precompute_token_features_m18_NY.py# Semantic feature extraction (run this first)
+├── data_NYTaxi/                       # New York City Taxi Dataset
+│   ├── od_matrix_daily.npy            # OD matrix data
+│   ├── io_flow_daily.npy              # Inflow-Outflow data
+│   ├── graph.npy                      # Distance / adjacency matrix
+│   └── grid_population_density_52nodes.json  # Regional population density
+└── baselines/                         # Implementations of 11 state-of-the-art baselines
     ├── ForestGAN/
-    ├── IVP_VAE/
-    ├── LMGU_DDPM/
-    ├── MCGAN/
-    ├── PSA_GAN/
-    ├── SeNM_VAE/
+    ├── TimeGAN/
     ├── Spd_DDPM/
-    └── TimeGAN/
-```
+    └── ...
+Data Availability
+We evaluate our model on two major real-world datasets:
 
-## 使用说明
+New York City (NYC) Dataset
+The data is obtained from the NYC Open Data portal and is fully open-source.
+All processed files required for reproduction are included in the data_NYTaxi/ directory.
 
-1. 下载语义特征嵌入模型（可使用任意语义嵌入模型，如Qwen2-7B-embed-base、Word2Vec等）
+Beijing Dataset
+Due to data privacy and security regulations, the Beijing dataset contains sensitive urban information and is not publicly available in this repository.
 
-2. 运行语义特征计算脚本：
-   ```
-   python precompute_token_features_m18_NY.py
-   ```
+Usage
+1. Prerequisites
+Download a semantic embedding model (e.g., Qwen2-7B-embed-base, Word2Vec, or any LLM-based encoder) to extract textual features.
 
-3. 运行主实验：
-   ```
-   python CADF_OD.py
-   ```
+2. Feature Precomputation
+Run the following script to generate semantic embeddings for the NYC dataset:
 
-## 数据集
+bash
+Copy code
+python precompute_token_features_m18_NY.py
+3. Training & Evaluation
+Execute the main script to train the CADF-OD model and evaluate performance:
 
-`data_NYTaxi/` 目录包含纽约出租车相关数据：
-- OD矩阵（起点-终点流量）
-- IO流量（流入-流出）
-- 距离矩阵
-- 区域人口密度
+bash
+Copy code
+python CADF_OD.py
+Baselines
+The baselines/ directory includes implementations of 11 competitive models used for comparison, covering a wide range of generative paradigms, including:
 
-## 基线模型
+GAN-based models (e.g., ForestGAN)
 
-`baselines/` 目录包含多个对比基线模型的实现代码。
+Sequential generative models (e.g., TimeGAN)
+
+Diffusion-based methods (e.g., Spd-DDPM)
+
+Other VAE- and hybrid-based approaches
